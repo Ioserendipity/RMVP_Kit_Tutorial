@@ -1,0 +1,21 @@
+# Build directory
+build/
+
+# IDE and OS specific files
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Large model files in assets
+# We will track the directory structure, but not the large files themselves
+assets/models/*.onnx
+assets/models/*.pth
+
+# Test data (videos, images)
+data/videos/
+data/images/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -7,14 +7,9 @@ build/
 *~
 .DS_Store
 
-# Large model files in assets
-# We will track the directory structure, but not the large files themselves
-assets/models/*.onnx
-assets/models/*.pth
-
-# Test data (videos, images)
-data/videos/
-data/images/
+# Large model files and test data
+assets/models/
+data/
 
 # Python cache
 __pycache__/
